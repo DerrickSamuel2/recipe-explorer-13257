@@ -43,4 +43,8 @@ export default [
       'eqeqeq': ['error', 'always'],
     },
   },
+  {
+    // Ignore generated Astro type files that are not part of the src tree
+    ignores: ['.astro/**'],
+  },
 ];
